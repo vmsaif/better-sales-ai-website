@@ -1,0 +1,185 @@
+<!-- =========
+
+	Waitlist Signup Page
+  Description: This page is for the waitlist signup section of the website. It contains a form for users to sign up for the waitlist.
+========== -->
+
+<!--
+  entry.2116052852 "Full Name"
+  entry.1060472253 "Your Designation"
+  entry.1558582620 "Email address">
+  entry.515591995 "Phone Number">
+  entry.805141573 "Company Name">
+  entry.1673533576 "Company Page (Any of Facebook, Website, LinkedIn etc).">
+  entry.288713975 "For which product(s) do you want to use Better Sales AI?">
+  entry.712453443 "How did you hear about us? (Website, Google, Facebook, LinkedIn, Twitter, Instagram, Friend, Other)">
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="/" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waitlist Signup Page</title>
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg" />
+
+  <!-- ===== All CSS files ===== -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/lineicons.css" />
+  <link rel="stylesheet" href="assets/css/ud-styles.css" />
+</head>
+
+<body>
+  <!-- ====== Header Start ====== -->
+
+  <div id="myNavbar"></div>
+
+  <!-- ====== Header End ====== -->
+
+  <!-- ====== Banner Start ====== -->
+  <section class="ud-page-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-banner-content">
+            <h1>Join the Waitlist</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== Banner End ====== -->
+
+  <!-- ====== Waitlist Start ====== -->
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="ud-section-title mx-auto text-center"> -->
+  <section id="contact" class="ud-section-title mx-auto text-center">
+    <div class="container">
+      <!-- <div class="row align-items-center" style="margin-top: -5vh;"> -->
+        <div class="ud-contact-title" style="margin-bottom: 0;">
+          <br />
+          <h2>
+            Get early access to our product<br />
+            by signing up for the waitlist
+          </h2>
+        </div>
+      <!-- </div> -->
+    </div>
+  </section>
+  <section id="contact" class="mx-auto"></section>
+    <div class="d-flex justify-content-center" style="margin-top: -5vh;">
+      <div class="col-xl-6 col-lg-6">
+        <div class="ud-contact-form-wrapper wow fadeInUp" style="margin: 0 auto;" data-wow-delay=".2s">
+          <h3 class="ud-contact-form-title">Sign Up</h3>
+          <!-- Form Starts here -->
+          <form id="customForm">
+
+            <!-- Full Name -->
+            <div class="ud-form-group">
+              <label for="fullName">Full Name <span style="color: red;">*</span></label>
+              <input type="text" id="fullName" name="entry.2116052852" placeholder="Enter your full name" required />
+            </div>
+
+            <!-- Your Designation -->
+            <div class="ud-form-group">
+              <label for="designation">Your Designation <span style="color: red;">*</span></label>
+              <input type="text" id="designation" name="entry.1060472253" placeholder="Enter your designation" required />
+            </div>
+
+            <!-- Email Address -->
+            <div class="ud-form-group">
+              <label for="email">Email Address <span style="color: red;">*</span></label>
+              <input type="email" id="email" name="entry.1558582620" placeholder="Enter your email address" required />
+            </div>
+
+            <!-- Phone Number -->
+            <div class="ud-form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="entry.515591995" placeholder="Enter your phone number" />
+            </div>
+
+            <h3 class="ud-contact-form-title">Company Information</h3>
+            <!-- Company Name -->
+            <div class="ud-form-group">
+              <label for="companyName">Company Name <span style="color: red;">*</span></label>
+              <input type="text" id="companyName" name="entry.805141573" placeholder="Enter your company name" required />
+            </div>
+
+            <!-- Company Page -->
+            <div class="ud-form-group">
+              <label for="companyPage">Company Page (Any of Facebook, Website, LinkedIn etc). </label>
+              <input type="text" id="companyPage" name="entry.1673533576" placeholder="Enter your company page" />
+            </div>
+
+            <!-- For which product(s) do you want to use Better Sales AI? -->
+            <div class="ud-form-group">
+              <label for="product">For which product(s) do you want to use Better Sales AI? <span style="color: red;">*</span></label>
+              <textarea id="product" name="entry.288713975" placeholder="Tell us about your product in short" required></textarea>
+            </div>
+
+            <!-- How did you hear about us? -->
+            <div class="ud-form-group">
+              <label for="how" style="margin-bottom: 1rem;">How did you hear about us?</label>
+              <select id="hearAbout" name="entry.712453443" style="margin-bottom: 1rem;
+              padding: 0.5rem 1rem;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              width: 50%;
+              font-size: 16px;
+              color: #333;">
+
+                <option value="0" selected disabled>choose one</option>
+                <option value="Website">Website</option>
+                <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Friend">Friend</option>
+                <option value="Other">Email</option>
+              </select>
+            </div>
+
+            <div class="ud-form-group mb-0">
+              <button type="button" id="submit" class="ud-main-btn">Submit</button>
+            </div>
+          </form>
+          <!-- Form Ends here -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- </div> -->
+    </div>
+  </section>
+  <!-- ====== Contact End ====== -->
+
+  <!-- ====== Footer Start ====== -->
+  <div id="myFooter"></div>
+  <!-- ====== Footer End ====== -->
+
+  <!-- ====== Back To Top Start ====== -->
+  <a href="javascript:void(0)" class="back-to-top">
+    <i class="lni lni-chevron-up"> </i>
+  </a>
+  <!-- ====== Back To Top End ====== -->
+
+  <!-- ====== All Javascript Files ====== -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/formSubmit.js"></script>
+</body>
+
+</html>
